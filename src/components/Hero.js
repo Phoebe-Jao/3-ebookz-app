@@ -10,7 +10,7 @@ function Hero() {
         alt="A photo grid featuring various photos of ebook tablets and people using them"
       />
       <div className="hero--text">
-        <h1 className="hero--heading">Reading Experiences</h1>
+        <h1 className="hero--heading">Get started on your reading</h1>
         <p className="hero--paragraph">
           Sunt commodo culpa Lorem aute culpa. Est officia minim ex laborum
           commodo fugiat aliquip amet in nostrud eu occaecat ut. Duis excepteur

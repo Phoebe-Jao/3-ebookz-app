@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.card {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card > .card--bookCover {
+    width: 180px;
+    height: 235px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: .3em;
+    cursor: pointer;
+}
+
+.card--bookDetails > .card--bookRating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .3em;
+    margin-bottom: .3em;
+}
+
+.card--bookRating > .card--star {
+    color: hsl(200, 100%, 68%);
+}
+
+.card--bookRating > .card--reviews {
+    color: hsl(254, 6%, 58%);
+}
+
+.card--bookDetails > .card--bookTitle,
+.card--bookDetails > .card--bookAuthor {
+    font-size: .9rem;
+    margin-bottom: .25em;
+    max-width: 180px;
+}
+
+.card--bookDetails > .card--bookTitle {
+    cursor: pointer;
+}
+
+.card--bookRating > .card--rating,
+.card--bookRating > .card--reviews {
+    cursor: pointer;
+}
