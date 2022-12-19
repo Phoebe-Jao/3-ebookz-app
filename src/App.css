@@ -9,7 +9,9 @@ body {
 }
 
 .books {
+    margin: 0 10%;
     display: flex;
     justify-content: center;
     gap: 2.8em;
+    overflow-x: auto;
 }
