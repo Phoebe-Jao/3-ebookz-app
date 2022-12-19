@@ -9,9 +9,15 @@ body {
 }
 
 .books {
+<<<<<<< HEAD
     margin: 0 10%;
     display: flex;
     justify-content: center;
     gap: 2.8em;
     overflow-x: auto;
+=======
+    display: flex;
+    justify-content: center;
+    gap: 2.8em;
+>>>>>>> 4e9d24d7fb73ff3a042207af114cc059625f4351
 }

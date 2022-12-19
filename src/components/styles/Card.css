@@ -2,7 +2,10 @@
 
 .card {
     font-family: 'Poppins', sans-serif;
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 4e9d24d7fb73ff3a042207af114cc059625f4351
 }
 
 .card > .card--bookCover {
@@ -44,6 +47,7 @@
 .card--bookRating > .card--rating,
 .card--bookRating > .card--reviews {
     cursor: pointer;
+<<<<<<< HEAD
 }
 
 .card--badge {
@@ -58,4 +62,6 @@
     border-radius: 6px;
     font-weight: bold;
     z-index: 10000;
+=======
+>>>>>>> 4e9d24d7fb73ff3a042207af114cc059625f4351
 }
